@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <div class="sidebar">
+    <div class="sidebar-wrapper">
+      <ul class="nav">
+        <li id="overview">
+          <a href="./Overview">
+            <i class="tim-icons icon-notes"></i>
+            <p>概述</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-panel">
+    <div class="content">
+      <ng-content></ng-content>
+    </div>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="copyright">
+          0.0.001.0 <a href="https://github.com/AtkSeeGow/ATK_EncryptionDictionary">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="navbar-wrapper" style="position: fixed; right: 25px; bottom: 25px; z-index: 999;">
+    <div class="navbar-toggle d-inline">
+      <button type="button" class="navbar-toggler" style="padding: 0px;">
+        <i class="tim-icons icon-bullet-list-67" style="color: white; font-size: 25px;" ></i>
+      </button>
+    </div>
+  </div>
+</div>
